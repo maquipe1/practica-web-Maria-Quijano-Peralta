@@ -1,0 +1,39 @@
+.form-search {
+    display: flex; 
+    justify-content: flex-end; 
+    align-items: center; 
+    box-sizing: border-box;
+    padding-right: 20px; 
+    color: $gris-oscuro;
+    text-align: center; 
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    @include if-desktop{
+        width: 1024px; 
+    }
+  
+     
+    
+
+    
+    .busquedas {
+        width: 100px; 
+        margin-left: 10px; 
+        margin-top: 10px;  
+        padding: 5px; 
+        background-color: rgba(232, 202, 175, 0.486); 
+        color: white; 
+        border: 0.5px solid $gris-medio; 
+        
+        font-family: $cuerpo; 
+    }
+    span {
+        font-family: $cuerpo; 
+        font-size: $cuerpo-pequeno
+    }
+
+
+
+  
+}

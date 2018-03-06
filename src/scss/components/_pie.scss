@@ -1,0 +1,33 @@
+.web-footer {
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.404) ;  
+    transition: background 1s; 
+    &:hover {
+        background: white;
+    }
+    padding: 7px; 
+    color: $gris-oscuro;
+    text-align: center; 
+    position: fixed; 
+    bottom: 0; 
+    width: 100%; 
+    font-family: $cabecera; 
+    font-size: $tamano-cuerpo + 10px;
+    display: flex; 
+    justify-content: space-around; 
+   
+
+    a.volver-arriba {
+        text-decoration: none; 
+        color: $gris-oscuro; 
+        padding-right: 15px; 
+        padding-top: 5px; 
+        font-family: $titulos; 
+        font-size: $tamano-cuerpo - 3px; 
+    }
+    .rrss {
+      width: 20px; 
+      height: 20px;
+      padding: 0 3px 0 3px; 
+    }
+}

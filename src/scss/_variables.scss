@@ -1,0 +1,37 @@
+// Font families
+$titulos: 'Playfair Display SC', serif;
+$cuerpo: 'Montserrat', serif; 
+$cabecera: 'Cookie', serif;
+
+
+
+// Font sizes
+$tamano-cuerpo: 15px;
+$cuerpo-pequeno: 12px;
+$cuerpo-grande: 20px;
+$tamano-titulos: 30px;
+$tamano-subtitulos: 25px;
+$tamano-cabecera: 35px; 
+
+
+
+// Base colors
+//Wintry Magic 
+$gris-oscuro: rgb(146, 137, 138); 
+$gris-medio: rgb(196,203,183);
+$neutro: rgb( 235,239,201);
+$melocoton: rgb(238,224,183);
+$rosa: rgb(232,202,175);
+
+
+
+
+// Responsive
+// 667 iphone landscape. 768 ipad portrait
+$mobile-portrait-width: 414px;
+$mobile-landscape-width: 767px;
+$tablet-portrait-width: $mobile-landscape-width + 1;
+$tablet-landscape-width: 1024px;
+
+// Forms variables
+

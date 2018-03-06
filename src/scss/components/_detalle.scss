@@ -1,0 +1,99 @@
+.title-img {
+    background-size: 100% 100%; 
+    background-position: center center; 
+    background-repeat: no-repeat; 
+    background-image: url(../../img/rollerie2.png);
+    height: 35vh; 
+    width: 100%; 
+    transition: background-size 1.5s; 
+
+    &:hover {
+        background-size: 110% 110%; 
+    }
+   
+    @include if-mobile-landscape{
+        width: 100%;
+        height: 100vh; 
+    }
+    
+    @include if-tablet-landscape{
+        width: 1024px; 
+        height: 700px; 
+    }
+    /*@include if-tablet-portrait{
+        width: 100%; 
+        height: 55vh; 
+    }*/
+
+}
+
+.la-rollerie {
+    font-size: $tamano-titulos; 
+    text-align: center; 
+    padding: 15px; 
+    padding-top: 25px; 
+    
+}
+.descripcion {
+    font-family: $cuerpo; 
+    font-size: $tamano-cuerpo; 
+    text-align: justify;
+    padding: 5px 30px 30px 30px; 
+    color:$gris-oscuro; 
+}
+
+
+
+.fotos-comida {
+    display: flex; 
+    flex-direction:column; 
+    margin:  auto; 
+    align-items: center;   
+    padding-bottom: 0; 
+
+    @include if-tablet-landscape{
+        flex-direction: row;
+        justify-content: center; 
+        
+    }
+
+
+    .uno, .dos, .tres {
+       
+        box-sizing: border-box;
+        width: 345px; 
+        height: 225px; 
+        padding-top: 5px; 
+        padding-bottom: 10px; 
+
+      @include if-mobile-landscape{
+            width: 400px;
+            height: 300px; 
+        }
+        /*  @include if-tablet{
+            width: 500px; 
+            height: 350px; 
+        }*/
+        @include if-tablet-landscape{
+            width: 333px; 
+            height: 240px; 
+            padding: 15px; 
+            
+        }
+
+    }
+}
+ 
+    
+
+
+  .mapa {
+      display: flex; 
+      justify-content: center; 
+      padding: 15px; 
+      
+    
+      
+      
+  }
+

@@ -1,0 +1,69 @@
+body {
+
+    background-color: white;
+    
+    font-size: $tamano-cuerpo;
+    font-family: $titulos; 
+    padding-top: 60px; 
+    
+    
+}
+a {
+    text-decoration: none;
+}
+
+form {
+   
+    
+     
+    padding-top: 20px; 
+    padding-bottom: 80px; 
+
+}
+
+label, input.comentar, button {
+    margin: 0 auto; 
+
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    width: 70%; 
+    box-sizing: border-box;
+     
+}
+
+
+label{
+    font-size: $cuerpo-pequeno;
+    display: block; 
+
+   
+}
+
+
+input.comentar{
+    float: none;
+   // margin: 5px 0 15px 0; 
+   margin-top: 5px; 
+   margin-bottom: 15px; 
+    font-size: $cuerpo-pequeno; 
+    padding: 8px;
+   
+    border-radius: 5px; 
+    border: 1px solid $gris-oscuro; 
+    &:focus {
+        outline-color: $rosa;
+    }
+}
+
+button {
+    @extend input; 
+    background-color: $rosa; 
+    color: white; 
+    font-family: $titulos; 
+    padding: 7px; 
+    &:active  {
+        background-color: lighten ($rosa, 50%)
+    }
+
+}

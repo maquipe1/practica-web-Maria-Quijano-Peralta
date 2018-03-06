@@ -1,0 +1,31 @@
+.web-header {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    box-sizing: border-box;
+    padding: 4px 8px 4px 0; 
+    background-color: white; 
+    color: $gris-oscuro;
+    text-align: center; 
+    position: fixed; 
+    top: 0; 
+    width: 100%;
+   
+   @include if-mobile-portrait{
+        justify-content: flex-start;
+       padding-left: 10px;  
+    }
+   
+    .web-title {
+       
+       display: flex; 
+        
+        font-family: $cabecera; 
+        font-size: $tamano-cabecera +7px ;
+      
+    }
+   
+   
+    
+
+}
